@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-image: url(brooke-lark-08bOYnH_r_E-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    margin-left: 35%;
+}
+.input_cnt{
+    margin-bottom: 30px;
+    position: relative;
+}
+input , textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 2px solid #f12843;
+    color: #f12843;
+    background: transparent;
+    font-size: 15px;
+}
+button{
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: 2px solid #f12843;
+    color: #000;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input_cnt{
+    flex-basis: 48%;
+}
+.title{
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.title p{
+    content: '';
+    width: 35%;
+    height: 3px;
+    background: #f12843;
+    display: block;
+    margin: auto;
+}
+
+p{
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 30px;
+    color: #f12843;
+    text-align: end;
+}
